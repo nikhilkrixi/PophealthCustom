@@ -1,0 +1,51 @@
+  MOPED: 192.168.1.48:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.7144ms
+------------------------------------------
+UserTest: test_User_email_should_be_string
+------------------------------------------
+  MOPED: 192.168.1.48:27017 QUERY        database=pop_health_custom_test collection=users selector={"email"=>"krixi@krixi.com"} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 9.7535ms
+  MOPED: 192.168.1.48:27017 QUERY        database=pop_health_custom_test collection=users selector={"email"=>"11212"} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2566ms
+  MOPED: 192.168.1.48:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.6613ms
+------------------------------------------
+UserTest: test_User_email_should_be_string
+------------------------------------------
+  MOPED: 192.168.1.48:27017 QUERY        database=pop_health_custom_test collection=users selector={"email"=>"krixi@krixi.com"} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.5196ms
+  MOPED: 192.168.1.48:27017 QUERY        database=pop_health_custom_test collection=users selector={"email"=>"11212"} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2437ms
+  MOPED: 192.168.1.48:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.6883ms
+------------------------------------------
+UserTest: test_User_email_should_be_string
+------------------------------------------
+  MOPED: 192.168.1.48:27017 QUERY        database=pop_health_custom_test collection=users selector={"email"=>"krixi@krixi.com"} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.4996ms
+  MOPED: 192.168.1.48:27017 QUERY        database=pop_health_custom_test collection=users selector={"email"=>"11212"} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2450ms
+  MOPED: 192.168.1.48:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.7027ms
+------------------------------------------
+UserTest: test_User_email_should_be_string
+------------------------------------------
+  MOPED: 192.168.1.48:27017 QUERY        database=pop_health_custom_test collection=users selector={"email"=>"krixi@krixi.com"} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.4733ms
+  MOPED: 192.168.1.48:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.7102ms
+------------------------------------------
+UserTest: test_User_email_should_be_string
+------------------------------------------
+  MOPED: 192.168.1.48:27017 QUERY        database=pop_health_custom_test collection=users selector={"email"=>"krixi@krixi.com"} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.6274ms
+  MOPED: 192.168.1.48:27017 QUERY        database=pop_health_custom_test collection=users selector={"email"=>"11212"} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2757ms
+  MOPED: 192.168.1.48:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.7383ms
+------------------------------------------
+UserTest: test_User_email_should_be_string
+------------------------------------------
+  MOPED: 192.168.1.48:27017 QUERY        database=pop_health_custom_test collection=users selector={"email"=>"krixi@krixi.com"} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.5246ms
+  MOPED: 192.168.1.48:27017 QUERY        database=pop_health_custom_test collection=users selector={"email"=>"11212"} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2547ms
+---------------------------------------------
+UserTest: test_User_password_should_be_string
+---------------------------------------------
+  MOPED: 192.168.1.48:27017 QUERY        database=pop_health_custom_test collection=users selector={"email"=>"krixi@krixi.com"} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.1907ms
+  MOPED: 192.168.1.48:27017 QUERY        database=pop_health_custom_test collection=users selector={"email"=>"krxi@krixi.com"} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.1552ms
+  MOPED: 192.168.1.48:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.7257ms
+------------------------------------------
+UserTest: test_User_email_should_be_string
+------------------------------------------
+  MOPED: 192.168.1.48:27017 QUERY        database=pop_health_custom_test collection=users selector={"email"=>"krixi@krixi.com"} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.5185ms
+  MOPED: 192.168.1.48:27017 QUERY        database=pop_health_custom_test collection=users selector={"email"=>"11212"} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2642ms
+---------------------------------------------
+UserTest: test_User_password_should_be_string
+---------------------------------------------
+  MOPED: 192.168.1.48:27017 QUERY        database=pop_health_custom_test collection=users selector={"email"=>"krixi@krixi.com"} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.1943ms
+  MOPED: 192.168.1.48:27017 QUERY        database=pop_health_custom_test collection=users selector={"email"=>"krxi@krixi.com"} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.1848ms

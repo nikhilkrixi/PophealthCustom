@@ -1,0 +1,2 @@
+class ClinicalMeasureController < ApplicationController
+end
